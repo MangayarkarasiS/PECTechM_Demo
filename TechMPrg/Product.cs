@@ -19,6 +19,10 @@ namespace TechMPrg
         {
             Console.WriteLine("I am inside Product class display method");
         }
+        public override string ToString()
+        {
+            return string.Format("Name: {0}\nDescription: {1}",ProductName,ProductDescription);
+        }
 
         public void Caclulate_price()
         {

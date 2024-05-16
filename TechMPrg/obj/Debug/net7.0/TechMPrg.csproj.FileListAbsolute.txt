@@ -13,3 +13,6 @@ C:\Users\Mangai\source\repos\TechM\TechMPrg\TechMPrg\obj\Debug\net7.0\refint\Tec
 C:\Users\Mangai\source\repos\TechM\TechMPrg\TechMPrg\obj\Debug\net7.0\TechMPrg.pdb
 C:\Users\Mangai\source\repos\TechM\TechMPrg\TechMPrg\obj\Debug\net7.0\TechMPrg.genruntimeconfig.cache
 C:\Users\Mangai\source\repos\TechM\TechMPrg\TechMPrg\obj\Debug\net7.0\ref\TechMPrg.dll
+C:\Users\Mangai\source\repos\TechM\TechMPrg\TechMPrg\bin\Debug\net7.0\TechMLib.dll
+C:\Users\Mangai\source\repos\TechM\TechMPrg\TechMPrg\bin\Debug\net7.0\TechMLib.pdb
+C:\Users\Mangai\source\repos\TechM\TechMPrg\TechMPrg\obj\Debug\net7.0\TechMPrg.csproj.CopyComplete

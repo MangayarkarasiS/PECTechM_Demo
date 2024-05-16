@@ -1,13 +1,63 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
 
+using System.Diagnostics.Metrics;
 using TechMPrg;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
-ArrayEx arrayEx= new ArrayEx();
+collectEx.stackEx();
+//collectEx.ArrLst();
+
+/*perm_Emp keerthi=new perm_Emp();
+keerthi.CalcSal();
+keerthi.Calc_Bonus();
+
+
+IBonus bonus = new perm_Emp();
+bonus.demo_meth();
+
+Console.WriteLine("Enter deets of manager: ");
+string name = Console.ReadLine();
+int sal=int.Parse(Console.ReadLine());  
+string id=Console.ReadLine();
+manager program = new manager(name,sal,id);
+
+program.print();
+program.pprint();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//Console.WriteLine("Enter Prdt 1 detail:");
+
+//string s = Console.ReadLine();
+
+//Product u = new Product();
+//u.ProductName = "Shampoo";
+//u.ProductDescription = "cleaning";
+
+//Console.WriteLine(u.ToString());
+
+//ArrayEx arrayEx= new ArrayEx();
 //arrayEx.AcceptValues();
+//arrayEx.Price();
 //arrayEx.TwoDimension();
 //arrayEx.jaggedArray();
-arrayEx.printValues(arrayEx.val); 
+//arrayEx.printValues(arrayEx.val); 
 
 
 /*Console.WriteLine(  "Names from PEC");
