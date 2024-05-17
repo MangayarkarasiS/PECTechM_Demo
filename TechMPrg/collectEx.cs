@@ -20,6 +20,100 @@ namespace TechMPrg
 
     internal static class collectEx
     {
+        public static Stack<string> stackPlate=new Stack<string>();
+
+        public static void AddPlate()
+        {
+            
+            stackPlate.Push("Plate1");
+            stackPlate.Push("Plate2");
+            stackPlate.Push("Plate3");
+
+        }
+
+        /*customer portal
+         Welcome to Online Food Delivery system
+           
+        Select the food you want to order
+
+        1. Juice
+        2. IceCream
+        3. Sweets
+        4. Dosa
+
+        Admin portal :
+
+        What do you want to do?
+        1. Add food items
+        2. Delete food items
+        3. Change food items
+        4. Display food items
+
+        Dosa 25 - ditionary
+        -------------------------------------------------------
+
+        class food
+        {
+        id,name,price,hotel
+        }
+
+        dictionary<string, food>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+         
+         
+         
+         
+         
+         */
+
+
+
+
+
+
+
+        public static void RemovePlate()
+        {
+            stackPlate.Pop();
+        }
+
+        public static void DisplayPlate()
+        {
+            foreach (var item in stackPlate)
+            {
+                Console.WriteLine(item);
+            }
+        }
+
+
+
+
+
+
+
         public static void stackEx()
         {
             Stack s= new Stack();

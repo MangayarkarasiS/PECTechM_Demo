@@ -5,7 +5,10 @@ using System.Diagnostics.Metrics;
 using TechMPrg;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
-collectEx.stackEx();
+LINQEx lq=new LINQEx();
+lq.ClassIteration();
+
+//collectEx.stackEx();
 //collectEx.ArrLst();
 
 /*perm_Emp keerthi=new perm_Emp();
